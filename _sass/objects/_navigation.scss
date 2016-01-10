@@ -1,0 +1,23 @@
+.navigation {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 2;
+  text-align: right;
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+.navigation-link {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}

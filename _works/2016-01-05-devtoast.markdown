@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Devtoast"
+date:   2016-01-05 16:23:44 -0500
+categories: jekyll update
+brief: |
+  <p>Devtoast is a soon-to-launch platform providing screencasts covering various topics to help junior developers level up their skills. These screencasts will focus on techniques, theory, and tooling.</p>
+listingImage: 'images/devtoast-listingImage.jpg'
+---

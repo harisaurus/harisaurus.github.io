@@ -1,0 +1,24 @@
+---
+layout: home
+title: Work
+permalink: /work/
+pageWrapperImage: images/stuff.jpg
+pageWrapperQuote: "Design isn’t crafting a beautiful textured button with breathtaking animation. It’s figuring out if there’s a way to get rid of the button altogether."
+pageWrapperAuthor: "Edward Tufte"
+---
+
+<h1>Work</h1>
+
+<p class="u-spacer30">I’ve had the opportunity to work on some incredible projects in the past years, and have also dedicated time to craft products of my own. The following showcases a few select work items.</p>
+
+{% for item in site.works %}
+  <article class="listingItem">
+    <img src="{{ site.baseurl }}/{{ item.listingImage }}" alt="">
+    <h2>{{ item.title }}</h2>
+    {% if item.listingLink %}
+      <a href="{{item.listingLink}}" target="_blank">{{item.listingLink}}</a>
+    {% else %}
+    {% endif %}
+    <div>{{item.brief}}</div>
+  </article>
+{% endfor %}

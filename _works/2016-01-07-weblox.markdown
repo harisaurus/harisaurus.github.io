@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Weblox"
+date:   2016-01-07 16:23:44 -0500
+categories: jekyll update
+brief: |
+  <p>Weblox is a template builder allowing users to quickly generate HTML, CSS and JavaScript for websites using a drag-and-drop interface. Weblox also features a community hub allowing designers and developers to upload their own 'blox' for others to use.</p>
+listingImage: 'images/weblox-listingImage.jpg'
+listingLink: "http://buildweblox.com"
+---

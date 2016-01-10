@@ -1,0 +1,11 @@
+.listingItem {
+  margin-bottom: 40px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  img {
+    margin-bottom: 15px;
+  }
+}

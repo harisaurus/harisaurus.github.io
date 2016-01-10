@@ -1,0 +1,46 @@
+.pageWrapper {
+  height: 100%;
+}
+
+.pageWrapper-content {
+  width: 50%;
+  min-height: 100%;
+  padding: 100px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pageWrapper-image {
+  width: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border: 20px solid #F4F5F6;
+  border-left: none;
+}
+
+.pageWrapper-quote {
+  display: block;
+  position: fixed;
+  color: white;
+  width: 25%;
+  font-size: 25px;
+  font-weight: 100;
+  top: 50%;
+  right: 25%;
+  transform: translate(50%, -50%);
+  background: black;
+  padding: 20px;
+}
+
+.pageWrapper-author {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 100;
+  display: block;
+  margin-top: 15px;
+}
