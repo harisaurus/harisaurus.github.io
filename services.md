@@ -23,3 +23,4 @@ I've been helping companies, big and small, improve their brand and presence on 
 
 
 ## Consulting + Strategy
+Although basic feedback and strategy development is something I help with through my design and development services, I do also like to focus and hone in on just a product or company strategy. I've had the opportunity to work on and develop strategies for various projects, big and small. Would love to hear more about your business ideas + strategies and how I can help guide and further develop them.
