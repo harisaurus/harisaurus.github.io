@@ -21,8 +21,5 @@ Having a web presence in the world today is practically a necessity. Many will b
 
 I'm also capable of building web applications (websites that have functionality - think user accounts, payment processing etc) and have also built a few of my own. I'm always interested in hearing your ideas and to discover how I might be able ot help.
 
-## Training
-
-
 ## Consulting + Strategy
 Although basic feedback and strategy development is something I help with through my design and development services, I do also like to focus and hone in on just the product or company strategy. I've had the opportunity to work on and develop strategies for various projects, big and small. I would love to hear more about your business ideas + strategies and how I can help guide and further develop them with you.
