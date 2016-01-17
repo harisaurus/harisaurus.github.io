@@ -108,11 +108,23 @@ p {
   line-height: 1.6;
   font-size: 15px;
 	margin-bottom: 12px;
+
+	@include breakpoint(small) {
+		font-size: 14px;
+	}
+
+	@include breakpoint(palm) {
+		font-size: 13px;
+	}
 }
 
 .p--large {
   font-size: 18px;
   letter-spacing: .3px;
+
+	@include breakpoint(palm) {
+		font-size: 15px;
+	}
 }
 
 h1 {
@@ -122,10 +134,24 @@ h1 {
   position: relative;
   left: -5px;
 	margin-bottom: 20px;
+
+	@include breakpoint(small) {
+		font-size: 80px;
+	}
+
+	@include breakpoint(palm) {
+		font-size: 60px;
+	}
 }
 
 h2 {
-	// font-weight: 300;
+	@include breakpoint(small) {
+		font-size: 24px;
+	}
+
+	@include breakpoint(palm) {
+		font-size: 19px;
+	}
 }
 
 

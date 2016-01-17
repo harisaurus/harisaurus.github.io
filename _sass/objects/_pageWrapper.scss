@@ -11,13 +11,15 @@
   justify-content: center;
 
   @include breakpoint(small) {
-    width: 90%;
+    width: 100%;
+    min-height: 60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   @include breakpoint(palm) {
-    width: 100%;
-  }
-
+		min-height: auto;
+	}
 }
 
 .pageWrapper-image {
@@ -32,12 +34,15 @@
   border-left: none;
 
   @include breakpoint(small) {
-    width: 10%;
+    width: 100%;
+    position: relative;
+    height: 40vh;
+    border: none;
   }
 
   @include breakpoint(palm) {
-    display: none;
-  }
+		height: 30vh;
+	}
 }
 
 .pageWrapper-quote {
