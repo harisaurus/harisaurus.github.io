@@ -1,5 +1,6 @@
 <nav class="navigation">
   <ul>
+    <li><a class="navigation-link" href="/">Home</a></li>
     {% for my_page in site.pages %}
       {% if my_page.title %}
       <li><a class="navigation-link {% if my_page.url == page.url %}active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
