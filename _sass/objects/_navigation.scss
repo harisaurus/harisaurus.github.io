@@ -26,11 +26,11 @@
   font-weight: 300;
   color: white;
 
-  @include breakpoint(small) {
-    .home & {
-      color: black;
-    }
-  }
+  // @include breakpoint(small) {
+  //   .home & {
+  //     color: black;
+  //   }
+  // }
 
   &.active {
     position: relative;

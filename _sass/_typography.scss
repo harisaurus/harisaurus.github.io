@@ -135,6 +135,10 @@ h1 {
   left: -5px;
 	margin-bottom: 20px;
 
+	@include breakpoint(970px) {
+		font-size: 70px;
+	}
+
 	@include breakpoint(small) {
 		font-size: 80px;
 	}
