@@ -10,14 +10,6 @@ $font-body: "futura-pt",sans-serif;
 $font-headings: "brandon-grotesque",sans-serif;
 
 
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -25,12 +17,35 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+//
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// $mq-large:    600px
+$mq-palm:     550px;
+$mq-small:    850px;
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
+
+@mixin breakpoint($point) {
+  @if $point == palm {
+    @media (max-width: 480px) { @content ; }
+  }
+  @else if $point == large {
+    @media (min-width: 801px) { @content ; }
+  }
+  @else if $point == small {
+    @media (max-width: 800px) { @content ; }
+  }
+ @else {
+    @media (max-width: $point) { @content ; }
+  }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
