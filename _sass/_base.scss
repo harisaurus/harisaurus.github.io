@@ -16,3 +16,10 @@ img {
   display: block;
   max-width: 100%;
 }
+
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px dashed #d1d1d1;
+  margin-bottom: 12px;
+}
