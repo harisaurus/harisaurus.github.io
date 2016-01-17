@@ -58,6 +58,11 @@
   background: black;
   padding: 20px;
 
+  @include breakpoint(1020px) {
+    font-size: 20px;
+    width: 30%;
+  }
+
   @include breakpoint(small) {
     display: none;
   }

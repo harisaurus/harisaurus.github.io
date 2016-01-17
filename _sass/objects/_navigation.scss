@@ -15,7 +15,7 @@
   }
 
   li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 }
 
@@ -24,13 +24,11 @@
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 300;
-  color: white;
+  color: #ddd;
 
-  // @include breakpoint(small) {
-  //   .home & {
-  //     color: black;
-  //   }
-  // }
+  &:hover {
+    color: white;
+  }
 
   &.active {
     position: relative;
