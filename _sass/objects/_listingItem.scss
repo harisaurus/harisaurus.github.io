@@ -1,11 +1,12 @@
 .listingItem {
   margin-bottom: 40px;
+  box-shadow: 0 3px 20px 4px #e1e1e1;
 
   &:last-of-type {
     margin-bottom: 0;
   }
+}
 
-  img {
-    margin-bottom: 15px;
-  }
+.listingItem-content {
+  padding: 20px 20px 10px;
 }

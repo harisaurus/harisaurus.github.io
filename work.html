@@ -14,11 +14,13 @@ pageWrapperAuthor: "Edward Tufte"
 {% for item in site.works %}
   <article class="listingItem">
     <img src="{{ site.baseurl }}/{{ item.listingImage }}" alt="">
-    <h2>{{ item.title }}</h2>
-    {% if item.listingLink %}
+    <div class="listingItem-content">
+      <h2>{{ item.title }}</h2>
+      {% if item.listingLink %}
       <a href="{{item.listingLink}}" target="_blank">{{item.listingLink}}</a>
-    {% else %}
-    {% endif %}
-    <div>{{item.brief}}</div>
+      {% else %}
+      {% endif %}
+      <div>{{item.brief}}</div>
+    </div>
   </article>
 {% endfor %}
