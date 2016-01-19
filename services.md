@@ -3,8 +3,8 @@ layout: home
 title: Services
 permalink: /services/
 pageWrapperImage: images/nasa.jpg
-pageWrapperQuote: "The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it."
-pageWrapperAuthor: "Mark Weiser"
+pageWrapperQuote: "Good designers want to be proved wrong, bad designers hope to be proved right."
+pageWrapperAuthor: "Andy Budd"
 ---
 
 #Services
