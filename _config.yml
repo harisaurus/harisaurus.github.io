@@ -8,7 +8,7 @@
 # Site settings
 title: Meet Haris
 email: hello@meetharis.com
-description: Haris is a designer, web developer and instructor based in Toronto. He works at Shopify by day, freelances on the weekends, and is also an instructor at HackerYou and Ladies Learning Code.
+description: Haris is a web developer, designer and instructor based in Toronto. He works at Shopify by day, freelances on the weekends, and is also an instructor at HackerYou and Ladies Learning Code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.meetharis.com" # the base hostname & protocol for your site
 collections:
