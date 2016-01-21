@@ -158,6 +158,12 @@ h2 {
 	}
 }
 
+h3 {
+	@include breakpoint(palm) {
+		font-size: 16px;
+	}
+}
+
 
 a {
 	color: #1067c6;
