@@ -3,6 +3,8 @@
 ---
 @charset "utf-8";
 
+$primaryColor: #1067c6;
+
 @mixin breakpoint($point) {
   @if $point == palm {
     @media (max-width: 480px) { @content ; }
@@ -22,10 +24,12 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "layout",
         "typography",
         "objects/pageWrapper",
         "objects/navigation",
         "objects/listingItem",
         "objects/social",
+        "objects/form",
         "utilities"
 ;

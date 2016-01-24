@@ -10,6 +10,11 @@
     position: absolute;
   }
 
+  @include breakpoint(palm) {
+    top: 20px;
+    right: 25px;
+  }
+
   ul {
     list-style-type: none;
   }
@@ -35,7 +40,6 @@
     &:after {
       content: '';
       position: absolute;
-      // top: 105%;
       top: 90%;
       left: 0;
       width: 100%;
