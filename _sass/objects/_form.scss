@@ -14,6 +14,8 @@
     display: block;
     padding: 8px;
     border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     transition: all 0.05s ease-in-out;
 
     &:focus {
@@ -42,4 +44,10 @@
     color: $primaryColor;
   }
 
+}
+
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
