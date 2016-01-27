@@ -14,11 +14,63 @@ twitterImage: images/devtoast-twitterCard.png
 <p class="u-spacer30">Sign up below to find out when Devtoast launches!</p>
 
 
+<form class="signup" target="_blank" action="http://hmcreative.ca/mc/mailchimpit.php">
+  	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+
+    <label for="mce-FNAME">First Name </label>
+    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+
+    <label for="mce-LNAME">Last Name </label>
+    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+  </div>
+</form>
+
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script type="text/javascript">
+$('document').ready(function(){
+  $('.signup').submit(function(e){
+
+    //prevent the form from submitting via the browser redirect
+    e.preventDefault();
+
+    //grab attributes and values out of the form
+    var data = {email: $('#mc-EMAIL').val()};
+    var endpoint = $(this).attr('action');
+
+    //make the ajax request
+    $.ajax({
+      method: 'POST',
+      dataType: "json",
+      url: endpoint,
+      data: data
+    }).success(function(data){
+      if(data.id){
+        //successful adds will have an id attribute on the object
+        alert('thanks for signing up');
+      } else if (data.title == 'Member Exists') {
+        //MC wil send back an error object with "Member Exists" as the title
+        alert('thanks, but you are alredy signed up');
+      } else {
+        //something went wrong with the API call
+      	alert('oh no, there has been a problem');
+      }
+    }).error(function(){
+      //the AJAX function returned a non-200, probably a server problem
+      alert('oh no, there has been a problem');
+    });
+  });
+});
+</script>
+
 <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
+<!-- <div id="mc_embed_signup">
 <form action="//meetharis.us10.list-manage.com/subscribe/post?u=ed32c00b601fcea7fd6da6a5c&amp;id=a2451c9bca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
   <div id="mc_embed_signup_scroll">
-    <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
   	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
   	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 
@@ -31,11 +83,11 @@ twitterImage: images/devtoast-twitterCard.png
 	  <div id="mce-responses" class="clear">
   		<div class="response" id="mce-error-response" style="display:none"></div>
   		<div class="response" id="mce-success-response" style="display:none"></div>
-  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  	</div>
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ed32c00b601fcea7fd6da6a5c_a2451c9bca" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
   </div>
 </form>
-</div>
+</div> -->
 
 <!--End mc_embed_signup-->
