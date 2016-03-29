@@ -8,7 +8,7 @@ pageWrapperAuthor: "Andy Budd"
 excerpt: "I offer various services including brand design, web design and development, consulting and strategy development. Get in touch to find out more!"
 ---
 
-#Services
+# Services
 
 If you're looking for a hard working, motivated individual interested in helping your business grow, look no further!
 
