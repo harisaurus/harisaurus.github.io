@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Favela United"
-date:   2016-01-04 16:23:44 -0500
+date:   2016-01-05 16:23:44 -0500
 categories: jekyll update
 brief: |
   <p>I was part of a team that helped create a long form experience for TSN called Favela United. This story documents the story of how a soccer charity is trying to rescue young women from a life of crime in the dangerous favelas.</p>
