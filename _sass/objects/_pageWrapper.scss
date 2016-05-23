@@ -33,6 +33,10 @@
   border: 20px solid #F4F5F6;
   border-left: none;
 
+  .home & {
+    background-position: top;
+  }
+
   @include breakpoint(small) {
     width: 100%;
     position: relative;
