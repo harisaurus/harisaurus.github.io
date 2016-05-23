@@ -79,3 +79,19 @@
   display: block;
   margin-top: 15px;
 }
+
+
+.layout--notes {
+  .navigation {
+    display: none;
+  }
+
+  .pageWrapper-content {
+    width: 100%;
+    max-width: 800px;
+  }
+}
+
+.conf-image {
+  max-width: 200px;
+}
