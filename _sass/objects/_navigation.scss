@@ -30,6 +30,9 @@
   letter-spacing: 1px;
   color: #ddd;
   font-weight: 900;
+  display: inline-block;
+  background: #131313;
+  padding: 3px 8px;
 
   &:hover {
     color: white;
@@ -40,7 +43,7 @@
     &:after {
       content: '';
       position: absolute;
-      top: 90%;
+      top: 100%;
       left: 0;
       width: 100%;
       height: 0px;
