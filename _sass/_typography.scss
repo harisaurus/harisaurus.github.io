@@ -32,11 +32,7 @@ p, input {
   font-size: 16px;
 
 	@include breakpoint(small) {
-		font-size: 14px;
-	}
-
-	@include breakpoint(palm) {
-		font-size: 13px;
+		font-size: 15px;
 	}
 }
 
@@ -45,7 +41,7 @@ input {
 }
 
 p {
-	margin-bottom: 12px;
+	margin-bottom: 18px;
 }
 
 .p--large {
@@ -94,6 +90,13 @@ h3 {
 	}
 }
 
+h2 + p {
+  margin-top: 15px;
+}
+
+p + h2 {
+  margin-top: 15px;
+}
 
 a {
 	color: $primaryColor;
