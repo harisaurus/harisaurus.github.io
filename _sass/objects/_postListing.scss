@@ -1,0 +1,38 @@
+.postListing {
+  list-style-type: none;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  li {
+    margin-bottom: 20px;
+    flex: 0 1 47%;
+
+    &:nth-child(3n) {
+      flex-basis: 100%;
+    }
+  }
+}
+
+.postListing-item {
+  display: inline-block;
+  color: inherit;
+}
+
+.postListing-date {
+  opacity: 0.7;
+  display: inline-block;
+  font-size: smaller;
+  font-weight: bold;
+
+}
+
+.postListing-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.postListing-exerpt {
+  opacity: 0.7;
+}

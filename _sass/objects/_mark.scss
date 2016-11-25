@@ -1,0 +1,17 @@
+.mark {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  z-index: 1;
+
+  a {
+    color: white;
+    background: black;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }
+}

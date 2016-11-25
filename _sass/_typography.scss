@@ -101,8 +101,22 @@ p + h2 {
 a {
 	color: $primaryColor;
 	text-decoration: none;
+  transition: color 0.05s ease-in-out;
 
 	&:hover {
 		color: lighten($primaryColor, 15%);
 	}
+}
+
+
+blockquote {
+  float: right;
+  width: 50%;
+  margin: 0 0 0 30px;
+  border-top: 2px solid #ccc;
+  padding-top: 30px;
+
+  p {
+    font-size: 30px;
+  }
 }
