@@ -1,0 +1,23 @@
+---
+layout: home
+title: Blog
+permalink: /blog/
+pageWrapperImage: images/toronto.jpg
+pageWrapperQuote: "Good designers want to be proved wrong, bad designers hope to be proved right."
+pageWrapperAuthor: "Andy Budd"
+excerpt: "A collection of aricles, ideas and tutorials written by Haris Mahmood."
+---
+
+<h1>Blog</h1>
+
+<ul class="postListing">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}" class="postListing-item">
+        <span class="postListing-date">{{ post.date | date: "%-d %B %Y" }}</span>
+        <h2 class="postListing-title">{{ post.title }}</h2>
+        <div class="postListing-exerpt">{{ post.excerpt }}</div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

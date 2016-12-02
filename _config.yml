@@ -6,13 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Meet Haris
+title: Haris Mahmood
 email: hello@meetharis.com
 description: Haris is a developer, designer and instructor based in Toronto. He works at Shopify, freelances, and teaches at HackerYou and Ladies Learning Code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.meetharis.com" # the base hostname & protocol for your site
+author: Haris Mahmood
 collections:
   - works
+permalink: /blog/:title/
+twitter:
+  username: harismahmood89
 
 # Build settings
 markdown: kramdown
