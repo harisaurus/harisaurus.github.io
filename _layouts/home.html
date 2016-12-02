@@ -4,14 +4,7 @@
   <body class="{{page.bodyClass}}">
     {% include header.html %}
     <div class="pageWrapper">
-      <div class="pageWrapper-image" style="background-image: url({{site.baseurl}}/{{page.pageWrapperImage}})">
-        {% if page.pageWrapperQuote %}
-        <span class="pageWrapper-quote">{{page.pageWrapperQuote}}
-          <span class="pageWrapper-author">{{page.pageWrapperAuthor}}</span>
-        </span>
-        {% endif %}
-      </div>
-
+      <div class="pageWrapper-image" style="background-image: url({{site.baseurl}}/{{page.pageWrapperImage}})"></div>
       <div class="pageWrapper-content">
         {{ content }}
       </div>
