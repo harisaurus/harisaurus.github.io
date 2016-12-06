@@ -8,15 +8,22 @@
 # Site settings
 title: Haris Mahmood
 email: hello@meetharis.com
-description: Haris is a developer, designer and instructor based in Toronto. He works at Shopify, freelances, and teaches at HackerYou and Ladies Learning Code.
+description: Designer, developer, instructor and entrepreneur based in Toronto.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.meetharis.com" # the base hostname & protocol for your site
 author: Haris Mahmood
 collections:
   - works
 permalink: /blog/:title/
+gems:
+  - jekyll-seo-tag
 twitter:
   username: harismahmood89
-
+social:
+  name: Haris Mahmood
+  links:
+    - https://twitter.com/harismahmood89
+    - https://www.linkedin.com/in/haris-mahmood-1b0b6650
+    - https://github.com/harisaurus
 # Build settings
 markdown: kramdown

@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Services
+description: "I offer various services including web design and development, mentorship, consulting and strategy development. Get in touch to find out more!"
 permalink: /services/
 pageWrapperImage: images/dark-room.jpg
 pageWrapperQuote: "Good designers want to be proved wrong, bad designers hope to be proved right."
 pageWrapperAuthor: "Andy Budd"
-excerpt: "I offer various services including brand design, web design and development, consulting and strategy development. Get in touch to find out more!"
 ---
 
 # Services
