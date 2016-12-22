@@ -2,7 +2,8 @@
 layout: post
 title:  "Getting Started With React"
 date:   2016-11-26 10:33:00 -0500
-masthead: '/images/breather.jpg'
+masthead: '/images/getting-started-with-react.jpg'
+image: '/images/getting-started-with-react-og.jpg'
 ---
 Although React.js is an incredibly popular and simple library, getting started in its ecosystem can be quite overwhelming.
 
