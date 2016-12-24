@@ -1,6 +1,7 @@
 .listingItem {
   margin-bottom: 40px;
   box-shadow: -40px 40px 160px 0 rgba(0,0,0,0.08),-8px 8px 15px 0 rgba(120,120,120,0.04),3px 3px 30px 0 rgba(0,0,0,0.04);
+  background: white;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -8,5 +9,9 @@
 }
 
 .listingItem-content {
-  padding: 20px 20px 10px;
+  padding: 20px 20px 0;
+
+  > div {
+    margin-top: 15px;
+  }
 }

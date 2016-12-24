@@ -6,8 +6,8 @@ categories: jekyll update
 brief: |
   <p>I was part of a team that helped create a long form experience for TSN called Favela United. This story documents the story of how a soccer charity is trying to rescue young women from a life of crime in the dangerous favelas.</p>
   <p>The site leveraged videography, photography, CSS and the GreenSock Javascript library to create fluid and unique animations and transitions to help tell this incredible story.</p>
-listingImage: 'images/favelaUnited-listingImage.jpg'
-listingLink: "http://favelaunited.com"
+listingImage: 'images/favelaUnited-listingImage.png'
+listingLink: "http://www.favelaunited.com"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

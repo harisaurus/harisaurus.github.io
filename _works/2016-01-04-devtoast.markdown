@@ -5,6 +5,6 @@ date:   2016-01-04 16:23:44 -0500
 categories: jekyll update
 brief: |
   <p>Devtoast.io is an educational platform featuring video based content released weekly focusing on tools, best practices, tricks, and tips related to development.</p>
-listingImage: 'images/devtoast-listingImage.jpg'
+listingImage: 'images/devtoast-listingImage.png'
 listingLink: "http://www.devtoast.io"
 ---
