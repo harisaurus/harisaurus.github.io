@@ -1,0 +1,44 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --colorPrimary: #3E5CFF;
+  --colorBody: #364655;
+  --colorSlate: #627382;
+  --gutter: 50px;
+}
+
+@-webkit-keyframes site-entrance {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes site-entrance {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes site-entrance {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes site-entrance {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  -webkit-animation: site-entrance 1.2s;
+  -moz-animation:    site-entrance 1.2s;
+  -o-animation:      site-entrance 1.2s;
+  animation:         site-entrance 1.2s;
+}

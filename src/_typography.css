@@ -1,0 +1,76 @@
+body {
+  font-family: 'GT America', sans-serif;
+  color: var(--colorBody);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-left: -2px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+h3 + p {
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+.p--large {
+  font-size: 20px;
+  color: var(--colorSlate);
+  margin-bottom: 13px;
+  display: none;
+}
+
+/* .p--large {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-right: 30%;
+  border-bottom: 1px dashed #e5e5e5;
+} */
+
+.p--intro {
+  font-family: 'Apercu Mono';
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 510px;
+  margin-top: 10px;
+}
+
+.p--intro + .p--intro {
+  margin-top: 0;
+}
+
+.font-mono--small {
+  font-family: 'Apercu Mono';
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--colorPrimary);
+  text-decoration: none;
+}

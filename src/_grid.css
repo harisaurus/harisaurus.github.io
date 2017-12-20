@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+  margin-left: calc(var(--gutter) * -1);
+}
+
+.grid > * {
+  margin-left: 20px;
+  margin-left: var(--gutter);
+}
+
+.grid--halfs > * {
+  flex-basis: 50%;
+}
+
+.grid--thirds > * {
+  flex-basis: calc(100% / 3);
+}

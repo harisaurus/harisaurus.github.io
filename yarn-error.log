@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/haris/.nvm/versions/node/v8.1.4/bin/node /usr/local/Cellar/yarn/1.2.1/libexec/bin/yarn.js add autoprefixer
+
+PATH: 
+  /Users/haris/.gem/ruby/2.3.0/bin:/opt/rubies/2.3.0/lib/ruby/gems/2.3.0/bin:/opt/rubies/2.3.0/bin:/Users/haris/.yarn/bin:/Users/haris/.nvm/versions/node/v8.1.4/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/haris/Applications/bin:/Users/haris/.themekit:/usr/X11/bin
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.1.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "harisaurus.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/harisaurus/harisaurus.github.io.git"
+    },
+    "author": "Haris Mahmood",
+    "license": "ISC",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/haris/Personal/Meet Haris/harisaurus.github.io/package.json: Unexpected token } in JSON at position 344
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:103:13
+      at <anonymous>

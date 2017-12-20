@@ -1,0 +1,14 @@
+.social-list {
+  font-family: 'Apercu Mono';
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 30px;
+}
+
+.social-list__item {
+  display: inline-block;
+
+  & + & {
+    margin-left: 20px;
+  }
+}

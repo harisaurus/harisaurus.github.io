@@ -1,0 +1,26 @@
+section {
+  display: flex;
+}
+
+section + section {
+  margin-top: 80px;
+}
+
+.section--intro {
+  padding-top: 300px;
+  padding-bottom: calc(300px - 80px);
+  flex-direction: column;
+
+  /* background-image: url('the-h.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: contain; */
+}
+
+.section-left {
+  flex-basis: 25%;
+}
+
+.section-right {
+  flex-basis: 75%;
+}
