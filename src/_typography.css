@@ -1,3 +1,24 @@
+@font-face {
+	font-family: 'Apercu Mono';
+	src: url('../fonts/Apercu-Mono.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GT America';
+	src: url('../fonts/GT-America-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'GT America';
+	src: url('../fonts/GT-America-Medium.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
   font-family: 'GT America', sans-serif;
   color: var(--colorBody);
@@ -44,13 +65,6 @@ p + p {
   margin-bottom: 13px;
   display: none;
 }
-
-/* .p--large {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  padding-right: 30%;
-  border-bottom: 1px dashed #e5e5e5;
-} */
 
 .p--intro {
   font-family: 'Apercu Mono';

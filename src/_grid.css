@@ -5,6 +5,10 @@
   @media (--small) {
     margin-left: calc(var(--gutter) * -0.5);
   }
+
+  @media (--only-palm) {
+    flex-direction: column;
+  }
 }
 
 .grid > * {
