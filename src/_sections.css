@@ -1,5 +1,9 @@
 section {
   display: flex;
+
+  @media (--small) {
+    flex-direction: column;
+  }
 }
 
 section + section {
@@ -19,8 +23,22 @@ section + section {
 
 .section-left {
   flex-basis: 25%;
+
+  @media (--small) {
+    flex-basis: 100%;
+    margin-bottom: calc(var(--gutter) * 0.25);
+  }
 }
 
 .section-right {
   flex-basis: 75%;
+
+  @media (--small) {
+    flex-basis: 100%;
+  }
+}
+
+
+.section__header-image {
+  margin-bottom: calc(var(--gutter) * 0.33);
 }

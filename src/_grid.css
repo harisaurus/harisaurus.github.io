@@ -1,11 +1,18 @@
 .grid {
   display: flex;
   margin-left: calc(var(--gutter) * -1);
+
+  @media (--small) {
+    margin-left: calc(var(--gutter) * -0.5);
+  }
 }
 
 .grid > * {
-  margin-left: 20px;
   margin-left: var(--gutter);
+
+  @media (--small) {
+    margin-left: calc(var(--gutter) * 0.5);
+  }
 }
 
 .grid--halfs > * {

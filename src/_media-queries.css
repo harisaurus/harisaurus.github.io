@@ -1,0 +1,5 @@
+@custom-media --only-palm (width <= 480px);
+@custom-media --only-tablet (width >= 481px) and (width <= 800px);
+@custom-media --only-desktop (width >= 801px);
+@custom-media --small (width <= 800px);
+@custom-media --large (width >= 481px);
