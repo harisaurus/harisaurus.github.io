@@ -22,3 +22,17 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+
+  @media(--large) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.projects-grid > *:first-child {
+  grid-column: 1/3;
+}

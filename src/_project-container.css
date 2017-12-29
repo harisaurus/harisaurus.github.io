@@ -1,4 +1,13 @@
 .project-container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
+  color: var(--colorBody);
+  box-shadow: 0 0 0 10px transparent;
+  transition: all 0.15s;
+
+  &:hover,
+  &:focus {
+    background-color: var(--colorSlateHover);
+    box-shadow: 0 0 0 10px var(--colorSlateHover);
+  }
 }
