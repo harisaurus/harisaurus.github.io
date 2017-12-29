@@ -1,9 +1,30 @@
 footer {
-  padding: 120px 0 80px;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  @media(--large) {
+    padding-bottom: 80px;
+    grid-column: 2/3;
+  }
 }
 
 .footer-logo {
   width: 60px;
   margin: 0 auto;
+}
+
+.social-list {
+  font-family: 'Apercu Mono';
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 30px;
+}
+
+.social-list__item {
+  display: inline-block;
+}
+
+.social-list__item + .social-list__item {
+  margin-left: 20px;
 }
