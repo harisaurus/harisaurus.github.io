@@ -1,6 +1,42 @@
-.section--intro {
-  padding-top: 300px;
-  padding-bottom: 300px;
+.hero {
+  padding-top: 40px;
+  display: grid;
+  grid-gap: 20px;
+
+  @media(--large) {
+    grid-template-columns: 2fr 3fr;
+  }
+}
+
+.hero-content {
+  text-align: center;
+
+  @media(--large) {
+    text-align: left;
+    align-self: center;
+  }
+}
+
+.hero-image {
+  margin: 40px auto 0;
+  width: 50%;
+
+  @media(--large) {
+    width: 100%;
+    margin: 0;
+    justify-self: end;
+  }
+}
+
+.hero-paragraph {
+  font-family: 'Apercu Mono';
+  line-height: 1.5;
+  max-width: 510px;
+  margin-top: 10px;
+
+  @media(--desktop) {
+    font-size: 20px;
+  }
 }
 
 section ~ section {
@@ -8,7 +44,7 @@ section ~ section {
 }
 
 
-section:not(.section--intro) {
+section:not(.hero) {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
