@@ -1,3 +1,7 @@
+:root {
+  /* --colorBody: #222; */
+}
+
 @-webkit-keyframes site-entrance {
   0%   { opacity: 0; }
   100% { opacity: 1; }
@@ -29,6 +33,7 @@ body {
 }
 
 @media (max-width: 800px) {
+
   body { padding-left: 20px; padding-right: 20px;
   }
 }
@@ -75,8 +80,17 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+
   h1 { font-size: 48px;
   }
+}
+
+h1 {
+  /* font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  color: var(--colorPrimary); */
 }
 
 h2 {
@@ -86,13 +100,22 @@ h2 {
 }
 
 @media (min-width: 681px) {
+
   h2 { font-size: 24px; font-weight: 400;
   }
 }
 
 @media (min-width: 1024px) {
+
   h2 { font-size: 30px;
   }
+}
+
+h2 {
+  /* font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: bold; */
 }
 
 h3 {
@@ -143,6 +166,7 @@ a {
 }
 
 @media (min-width: 1024px) {
+
   .halfs-grid { grid-template-columns: repeat(2, 1fr); grid-column-gap: 40px;
   }
 }
@@ -154,11 +178,13 @@ a {
 }
 
 @media (min-width: 681px) {
+
   .thirds-grid { grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
+
   .thirds-grid { grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -170,6 +196,7 @@ a {
 }
 
 @media (min-width: 681px) {
+
   .projects-grid { grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -187,7 +214,9 @@ a {
 }
 
 @media (min-width: 681px) {
-  .hero { grid-template-columns: 2fr 3fr; padding-top: 0; /* min-height: auto; */
+
+  .hero { grid-template-columns: 2fr 3fr; padding-top: 0;
+    /* min-height: auto; */
   }
 }
 
@@ -196,6 +225,7 @@ a {
 }
 
 @media (min-width: 681px) {
+
   .hero-content { text-align: left; -ms-flex-item-align: center; align-self: center;
   }
 }
@@ -215,6 +245,7 @@ a {
 }
 
 @media (min-width: 681px) {
+
   .hero-image-bg { display: block;
   }
 }
@@ -226,6 +257,7 @@ a {
 }
 
 @media (min-width: 1024px) {
+
   .hero-paragraph { font-size: 20px;
   }
 }
@@ -241,11 +273,13 @@ section:not(.hero) {
 }
 
 @media (min-width: 681px) {
+
   section:not(.hero) { grid-template-columns: 1fr 3fr;
   }
 }
 
 @media (min-width: 681px) {
+
   .section-right { grid-column: 2/3;
   }
 }
@@ -271,6 +305,7 @@ footer {
 }
 
 @media (min-width: 681px) {
+
   footer { padding-bottom: 80px; grid-column: 2/3;
   }
 }
